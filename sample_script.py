@@ -9,7 +9,7 @@ driver = webdriver.Chrome(executable_path='./chromedriver')
 driver.maximize_window()
 
 # open the url
-driver.get('https://www.amazon.com/')
+driver.get('https://shop.cureskin.com/')
 
 search = driver.find_element(By.NAME, 'q')
 search.clear()
